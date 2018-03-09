@@ -1,0 +1,81 @@
+git clone -b zhoumg http://zhoumg:aaaAAA123@gitlab.qidid.com/wlw_pay/cgi.git
+git clone -b zhoumg http://zhoumg:aaaAAA123@gitlab.qidid.com/wlw_pay/payserver.git
+
+git clone -b dev http://zhoumg:aaaAAA123@gitlab.qidid.com/wlw_pay/cgi.git
+git clone -b dev http://zhoumg:aaaAAA123@gitlab.qidid.com/wlw_pay/payserver.git
+
+https://zhidao.baidu.com/question/1894968623462041380.html
+
+http://blog.csdn.net/sz_bb/article/details/53300937
+1130460270@qq.com
+
+busi_partner=109001&dt_order=20171212095403&money_order=0.01&name_goods=%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%95%86%E5%93%81&no_order=1712120954030116010600080&notify_url=http%3A%2F%2F120.77.83.58%3A8080%2Fpay.llnotifyasyn&oid_partner=201712050001234999&risk_item=%7B%22account_phone%22%3A%2213417456462%22%2C%22goods_category%22%3A%224999%22%2C%22register_time%22%3A%222017-12-08+10%3A04%3A47%22%2C%22user_id%22%3A%221092042%22%7D&sign=pOV1XZTvS3lVE5vkXQcDPVDrIxSUWK1y56EPaApF9N%2FrRmXQy5AB59K4eUvyHhdcyJtX5lKiuntSb1OSFD0PyfLgsBsd7x8aLMYtF16h1DeX%2FlffAPFXki4Bh1B1Y3WnpFLU4yfjb7pgs1AD5iAG6f1kinXEEfCVzAgqs2kLDTo%3D&sign_type=RSA&timestamp=20171212095403&user_id=1092042&userreq_ip=121.35.211.229&version=1.1
+
+
+
+
+openssl pkcs8 -topk8 -inform PEM -in rsa_paypwd_private_key.pem -outform PEM -nocrypt
+
+WARNING: can't open config file: /z/extlib/_openssl_/ssl/openssl.cnf
+
+D:\Dev\OpenSSL\ssl
+
+-config "D:\Dev\OpenSSL\ssl\openssl.cnf"
+
+set "OPENSSL_CONF=D:\Dev\OpenSSL\ssl\openssl.cnf"
+openssl pkcs8 -topk8 -inform PEM -in rsa_paypwd_private_key.pem -outform PEM -nocrypt
+
+
+
+
+-----END PRIVATE KEY-----
+
+C:\Users\Administrator\Desktop\rsa>set "OPENSSL_CONF=D:\Dev\OpenSSL\ssl\openssl.
+cnf"
+
+C:\Users\Administrator\Desktop\rsa>openssl pkcs8 -topk8 -inform PEM -in rsa_payp
+wd_private_key.pem -outform PEM -nocrypt
+
+
+
+
+busi_partner=109001
+&dt_order=20180228151903
+&money_order=0.01
+&name_goods=测试商品
+&no_order=1802271720380316010650005
+&notify_url=http://119.23.228.36:8080/pay.llnotifyasyn&oid_partner=201712050001234999
+&risk_item={"delivery_addr_city":"440300","delivery_addr_province":"440000","delivery_cycle":"121.34.146.207","delivery_phone":"18682366726","frms_ip_addr":"13","frms_ware_category":"4016","goods_count":"1","logistics_mode":"2","user_info_bind_phone":"18682366726","user_info_dt_register":"20180228151903","user_info_mercht_userno":"1034292965"}
+&sign_type=RSA
+&timestamp=20180228151903
+&url_return=http://www.baidu.com
+&user_id=1034292965
+&userreq_ip=113.116.63.149
+&version=1.1
+&sign=YCCzXTor+SqDRiW8BsuiuMZMkNNHigYuTMR3gUetL/Zfe9LmnCXngVDu+JOUWkAdXzSjnKXCmQW3CDBEtUJG8xSH7kgvTgnxpT1A7E9xmuhM+RdED1okMWjz/DGNAs72r1CuKKp+gO4z6kN4/1ZCJx4f5SzDOzRMOsMvEm6Fg3E=
+
+---认证支付工作---
+1 绑卡接口改变，添加认证绑卡功能，修改。
+2 绑卡列表返回接口，修改。
+
+
+giWnwfMFW+VhtPdjCWfJ8knVgcRnb/32Os3+iefbBxY2aq+gRhmeMXCcD83dEOuM9H4bdg4IiT935XUrQMDNFjL9d0VbDDiuwhVf5GBAZxWbbA0cUtnt/UEi5F6+96Vz4JpJzI2XMS5bbuDh3Ebq9fe9aLitNC0sZJCHBudzsek=
+fCffjs0YUt8aYwZ36yoM4QxdV3plAQibGE1ZFJ9YITg0g7zQFCsHuzCF5GYrYHkjRz0TauSJnzN7oDIOQY5YNONNZP8dVvQkDXSMHbLnLiDH5806PHnpzzV60jzbEHbIMJVh3B5HGHD9iL6JRIjVSP68TosJLxXw8DcEUNbfclo=
+
+
+1 完善C++库。
+2 完成JAVA公共库。
+3 linux c时间库封装。
+4 nginx测试。
+5 忘记了。
+6 curl库封装。
+
+
+error param! signParam[R1802027335724547041092042119509Wolianw2018] key:9AAE03C82E6639BB9F60C40956E4D71F 
+
+str[R1802027335724547041092042119509Wolianw2018] md5[9AAE03C82E6639BB9F60C40956E4D71F]
+
+
+
+
+
